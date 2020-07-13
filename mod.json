@@ -1,0 +1,8 @@
+{
+	"name": "Imperio Inca",
+	"version": "0.0.24",
+	"label": "0.A.D.Inca",
+	"url": "forum.wildfiregames.com",
+	"description": "Models for 0 ad of inca civ",
+	"dependencies": ["0ad>=0.0.23"]
+}
