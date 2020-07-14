@@ -19,6 +19,7 @@
       units/{civ}_infantry_maceman_b
       units/{civ}_infantry_maceman_merc_b
       units/{civ}_infantry_archer_merc_b
+      units/{civ}_infantry_maceman2_merc_b
       units/{civ}_infantry_chaski
     </Entities>
   </ProductionQueue>
