@@ -6,7 +6,7 @@
     <SelectionGroupName>units/inca_infantry_swordsman_merc_b</SelectionGroupName>
     <GenericName>Chincha Mercenary Maceman</GenericName>
     <SpecificName>Wisa Chincha</SpecificName>
-    <Icon>units/inca_merc_1.png</Icon>
+    <Icon>units/inca_chinchas.png</Icon>
     <RequiredTechnology>phase_town</RequiredTechnology>
   </Identity>
   <Promotion>

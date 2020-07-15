@@ -4,6 +4,11 @@
   <group>
     <variant frequency="1" name="house1">
       <mesh>structural/inca_fortress.dae</mesh>
+      <props>
+        <prop actor="props/structures/decals/dirt_5x5.xml" attachpoint="root"/>
+        <prop actor="props/units/weapons/arrow_front.xml" attachpoint="loaded-projectile"/>
+        <prop actor="props/units/weapons/arrow_front.xml" attachpoint="projectile"/>
+      </props>
       <textures>
         <texture file="structural/inca_struct.png" name="baseTex"/>
         <texture file="structural/inca_struct_spec.png" name="specTex"/>
