@@ -14,7 +14,7 @@
     <SpawnEntityOnDeath>decay|rubble/rubble_stone_5x5</SpawnEntityOnDeath>
   </Health>
   <Identity>
-    <Civ>maya</Civ>
+    <Civ>inca</Civ>
     <GenericName>Barracks</GenericName>
     <SpecificName>Awaqanakuy wasi</SpecificName>
     <Tooltip>Train incas citizen-soldiers. Research improvements for Mayan units.</Tooltip>

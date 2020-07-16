@@ -6,13 +6,13 @@
     <EjectClassesOnDestroy datatype="tokens">FemaleCitizen Infantry Healer Dog</EjectClassesOnDestroy>
     <List datatype="tokens">Support Infantry Cavalry Dog Siege Elephant</List>
     <BuffHeal>0</BuffHeal>
-    <LoadingRange>10</LoadingRange>
+    <LoadingRange>25</LoadingRange>
     <Pickup>true</Pickup>
   </GarrisonHolder>
   <Identity>
     <Civ>inca</Civ>
     <SpecificName>Wampu awqatinkuy</SpecificName>
-    <Icon>units/rome_ship_bireme.png</Icon>
+    <Icon>units/inca_ship_bireme.png</Icon>
   </Identity>
   <VisualActor>
     <Actor>structures/incas/bireme.xml</Actor>
