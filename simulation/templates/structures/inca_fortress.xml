@@ -4,7 +4,7 @@
     <PopulationBonus>5</PopulationBonus>
   </Cost>
     <Footprint>
-    <Square width="32.0" depth="32.0"/>
+    <Square width="34.0" depth="34.0"/>
     <Height>8.0</Height>
   </Footprint>
   <Health>

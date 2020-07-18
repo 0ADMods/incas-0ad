@@ -4,7 +4,7 @@
     <PopulationBonus>2</PopulationBonus>
   </Cost>
   <Footprint>
-    <Square width="12.0" depth="12.0"/>
+    <Square width="15.0" depth="20.0"/>
   </Footprint>
   <Health>
     <SpawnEntityOnDeath>decay|rubble/rubble_stone_3x3</SpawnEntityOnDeath>

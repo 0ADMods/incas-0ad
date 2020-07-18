@@ -3,6 +3,10 @@
   <Cost>
     <PopulationBonus>2</PopulationBonus>
   </Cost>
+   <Footprint>
+    <Square width="24.0" depth="25.0"/>
+    <Height>15.0</Height>
+  </Footprint>
   <Identity>
     <Civ>inca</Civ>
     <SpecificName>Nina Wasi</SpecificName>
