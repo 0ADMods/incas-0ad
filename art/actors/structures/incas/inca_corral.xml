@@ -11,6 +11,7 @@
         <texture file="structural/inca_struct.png" name="baseTex"/>
         <texture file="structural/inca_struct_spec.png" name="specTex"/>
         <texture file="structural/inca_struct_norm.png" name="normTex"/>
+             <texture file="structural/ao/inca_corral_ao.png" name="aoTex"/>
       </textures>
     </variant>
   </group>
@@ -18,7 +19,7 @@
     <variant frequency="1" name="ungarrisoned"/>
     <variant name="garrisoned">
       <props>
-        <prop actor="props/special/common/garrison_flag_kart.xml" attachpoint="garrisoned"/>
+        <prop actor="props/special/common/garrison_flag_inca.xml" attachpoint="garrisoned"/>
       </props>
     </variant>
   </group>
@@ -34,5 +35,5 @@
       </props>
     </variant>
   </group>
-  <material>basic_trans_parallax_spec.xml</material>
+  <material>player_trans_ao_parallax_spec.xml</material>
 </actor>

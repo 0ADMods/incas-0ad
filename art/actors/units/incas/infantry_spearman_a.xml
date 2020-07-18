@@ -22,6 +22,11 @@
 	    <texture file="skeletal/inca_w_a_2.png" name="baseTex"/>
       </textures>
     </variant>
+    	<variant frequency="1" name="3">
+      <textures>
+	    <texture file="skeletal/inca_w_a_3.png" name="baseTex"/>
+      </textures>
+    </variant>
   </group>
   <group>
     <variant file="biped/base_spearman_relax.xml"/>
