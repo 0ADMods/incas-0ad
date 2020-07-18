@@ -1,7 +1,7 @@
 ﻿{
 	"Code": "inca",
 	"Culture": "inca",
-	"Name": "Tawantinsuyu",
+	"Name": "Tawantinsuyu (Incas)",
 	"Emblem": "session/portraits/emblems/emblem_inca.png",
 	"History": "",
 	"Music":[
@@ -10,35 +10,44 @@
 			{"File":"Highland_Mist.ogg", "Type":"peace"},
 			{"File":"The_Hellespont.ogg", "Type":"peace"}
 		],
-		"Factions":
+	"Factions":
 	[
 		{
-			"Name": "",
-			"Description": "",
+			"Name": "Incas",
+			"Description": "The inhabitants of south american.",
 			"Technologies":
 			[
 				{
-					"Name": "",
-					"History": "",
-					"Description": ""
-				},
-				{
-					"Name": "",
-					"History": "",
-					"Description": ""
+					"Name": "aq",
+					"History": "aq",
+					"Description": "aq" 
 				}
 			],
 			"Heroes":
 			[
 				{
-					"Name": "",
-					"Class": "",
+					"Name": "Sapa Inca Capac Yupanqui",
+					"Class": "Infantry Swordsman",
 					"Armament": "",
 					"Emblem": "",
-					"History": ""
+					"History": "(Quechua Qhapaq Yupanki Inka, splendid accountant Inca) was the fifth Sapa Inca of the Kingdom of Cusco (beginning around CE 1320) and the last of the Hurin dynasty."
+				},
+				{
+					"Name": "Sapa Inca Pachacutec",
+					"Class": "Infantry Swordsman",
+					"Armament": "",
+					"Emblem": "",
+					"History": "(Quechua: Pachakutiq Inka Yupanki) was the ninth Sapa Inca (1418–1471/1472) of the Kingdom of Cusco which he transformed into the Inca Empire (Quechua: Tawantinsuyu). Most archaeologists now believe that the famous Inca site of Machu Picchu was built as an estate for Pachacuti." 
+				},
+				{
+					"Name": "Sapa Inca Sinchi Roca",
+					"Class": "Infantry Swordsman",
+					"Armament": "",
+					"Emblem": "",
+					"History": "Sinchi Ruq'a Inka (Quechua for valorous generous Inca) was the second Sapa Inca of the Kingdom of Cusco (beginning around 1230 CE, though as early as 1105 CE according to some) and a member of the Hurin dynasty (first dynasty)."					
 				}
-			]
-		}
+			] 
+		} 
 	],
 	"CivBonuses":
 	[

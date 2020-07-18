@@ -1,7 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_unit_ship_bireme">
+    <Attack>
+    <Ranged>
+      <Damage>
+	  <Hack>10.0</Hack>
+        <Pierce>0.0</Pierce>
+        <Crush>10.0</Crush>
+      </Damage>
+    </Ranged>
+  </Attack>
   <GarrisonHolder>
-    <Max>25</Max>
+    <Max>22</Max>
     <EjectHealth>0</EjectHealth>
     <EjectClassesOnDestroy datatype="tokens">FemaleCitizen Infantry Healer Dog</EjectClassesOnDestroy>
     <List datatype="tokens">Support Infantry Cavalry Dog Siege Elephant</List>
@@ -14,6 +23,9 @@
     <SpecificName>Wampu awqatinkuy</SpecificName>
     <Icon>units/inca_ship_bireme.png</Icon>
   </Identity>
+  <Health>
+    <Max>650</Max>
+  </Health>
   <VisualActor>
     <Actor>structures/incas/bireme.xml</Actor>
   </VisualActor>

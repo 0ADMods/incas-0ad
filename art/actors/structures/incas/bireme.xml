@@ -6,6 +6,7 @@
       <mesh>structural/inca_balsa_guerra.dae</mesh>
        <props>
         <prop actor="props/structures/decals/dirt_3x5.xml" attachpoint="root"/>
+        <prop actor="props/units/weapons/arrow_front.xml" attachpoint="projectile"/>
       </props>
       <textures>
         <texture file="structural/inca_struct.png" name="baseTex"/>

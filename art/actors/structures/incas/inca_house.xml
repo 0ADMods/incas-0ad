@@ -5,7 +5,7 @@
     <variant frequency="1" name="house1">
       <mesh>structural/inca_house_1.dae</mesh>
       <props>
-        <prop actor="props/structures/decals/dirt_3x5.xml" attachpoint="root"/>
+        <prop actor="props/structures/decals/dirt_5x3.xml" attachpoint="root"/>
       </props>
       <textures>
         <texture file="structural/inca_struct.png" name="baseTex"/>
@@ -17,7 +17,7 @@
         <variant frequency="1" name="house2">
       <mesh>structural/inca_house_2.dae.dae</mesh>
       <props>
-        <prop actor="props/structures/decals/dirt_3x5.xml" attachpoint="root"/>
+        <prop actor="props/structures/decals/dirt_5x3.xml" attachpoint="root"/>
       </props>
       <textures>
         <texture file="structural/inca_struct.png" name="baseTex"/>
@@ -29,7 +29,7 @@
     <variant frequency="1" name="house3">
       <mesh>structural/inca_house_3.dae.dae</mesh>
       <props>
-        <prop actor="props/structures/decals/dirt_3x5.xml" attachpoint="root"/>
+        <prop actor="props/structures/decals/dirt_5x3.xml" attachpoint="root"/>
       </props>
       <textures>
         <texture file="structural/inca_struct.png" name="baseTex"/>

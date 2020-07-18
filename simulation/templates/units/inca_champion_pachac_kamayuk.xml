@@ -2,7 +2,7 @@
 <Entity parent="template_unit_champion_infantry_swordsman">
   <Identity>
     <Civ>inca</Civ>
-    <GenericName>Imperial guards of Inca</GenericName>
+    <GenericName>Pachac Kamayuk</GenericName>
     <SpecificName>Pachac Kamayuk</SpecificName>
     <Icon>units/inca_champ_1.png</Icon>
   </Identity>
