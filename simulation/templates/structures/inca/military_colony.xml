@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_structure_civic_civil_centre_military_colony">
+  <Footprint>
+    <Square width="40.0" depth="40.0"/>
+    <Height>12.0</Height>
+  </Footprint>
+  <Identity>
+    <Civ>inca</Civ>
+    <GenericName>Military Colony</GenericName>
+	  <SpecificName>Tambo</SpecificName>
+    <Classes datatype="tokens">Tambo</Classes>
+  </Identity>
+  <Obstruction>
+    <Static width="36.0" depth="36.0"/> 
+  </Obstruction>
+  <Trainer>
+    <Entities datatype="tokens">
+      units/{civ}/infantry_maceman_b
+      units/{civ}/champion_infantry_archer
+      units/{civ}/infantry_chaski
+    </Entities>
+  </Trainer>
+  <TrainingRestrictions>
+    <Category>Tambo</Category>
+  </TrainingRestrictions>
+  <VisualActor>
+    <Actor>structures/incas/inca_tambo.xml</Actor>
+    <FoundationActor>structures/fndn_9x9.xml</FoundationActor>
+  </VisualActor>
+</Entity>

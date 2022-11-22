@@ -1,11 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_unit_infantry_ranged">
-  <Armour>
-    <Hack>1</Hack>
-    <Pierce>1</Pierce>
-  </Armour>
-  <Attack>
+  <!-- <Attack>
     <Ranged>
+	  <AttackName>Slinger</AttackName>
       <Damage>
         <Hack>0</Hack>
         <Pierce>5.0</Pierce>
@@ -21,7 +18,7 @@
         <Gravity>29.81</Gravity>
       </Projectile>
     </Ranged>
-  </Attack>
+  </Attack> -->
   <Cost>
     <Resources>
       <stone>30</stone>
@@ -32,6 +29,14 @@
     <VisibleClasses datatype="tokens">Slinger</VisibleClasses>
     <GenericName>Slinger</GenericName>
   </Identity>
+   <Resistance>
+    <Entity>
+      <Damage>
+        <Hack op="add">1</Hack>
+        <Pierce op="add">1</Pierce>
+      </Damage>
+    </Entity>
+  </Resistance>
   <Loot>
     <stone>5</stone>
   </Loot>

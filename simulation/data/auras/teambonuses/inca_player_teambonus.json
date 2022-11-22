@@ -1,0 +1,11 @@
+{
+	"type": "global",
+	"affects": ["Citizen Infantry"],
+	"affectedPlayers": ["ExclusiveMutualAlly"],
+	"civ": "inca",
+	"modifications": [
+		{ "value": "Cost/Resources/metal", "multiply": 0.7 }
+	],
+	"auraName": "Andes mines",
+	"auraDescription": "Allied Citizen Infantry -30% metal."
+}
