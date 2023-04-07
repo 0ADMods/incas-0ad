@@ -13,7 +13,9 @@
     <GenericName>Chimu Mercenary Maceman</GenericName>
     <SpecificName>Wisa Chimu</SpecificName>
     <Icon>units/inca_merc_1.png</Icon>
-    <RequiredTechnology>phase_town</RequiredTechnology>
+    <Requirements>
+      <Techs datatype="tokens">phase_town</Techs>
+    </Requirements>
   </Identity>
   <Promotion>
     <Entity>units/inca/infantry_maceman_merc_b</Entity>

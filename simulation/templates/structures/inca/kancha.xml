@@ -6,7 +6,9 @@
   <Identity>
     <Civ>inca</Civ>
     <SpecificName>Kancha</SpecificName>
-    <RequiredTechnology>phase_town</RequiredTechnology>
+    <Requirements>
+      <Techs datatype="tokens">phase_town</Techs>
+    </Requirements>
   </Identity>
   <Obstruction>
     <Static width="18.0" depth="18.0"/>

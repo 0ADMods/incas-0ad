@@ -12,7 +12,9 @@
     <GenericName>Quíchua Maceman</GenericName>
     <SpecificName>Auca Runa macana</SpecificName>
     <Icon>units/inca_maceman.png</Icon>
-    <RequiredTechnology>phase_town</RequiredTechnology>
+    <Requirements>
+      <Techs datatype="tokens">phase_town</Techs>
+    </Requirements>
   </Identity>
   <Promotion>
     <Entity>units/inca/infantry_maceman_a</Entity>

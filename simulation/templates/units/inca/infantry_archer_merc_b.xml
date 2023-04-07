@@ -13,7 +13,9 @@
     <GenericName>Ashaninka Archer</GenericName>
     <SpecificName>Wisa Ashaninka</SpecificName>
     <Icon>units/inca_merc_2.png</Icon>
-    <RequiredTechnology>phase_town</RequiredTechnology>
+    <Requirements>
+      <Techs datatype="tokens">phase_town</Techs>
+    </Requirements>
   </Identity>
   <Promotion>
     <Entity>units/inca/infantry_archer_merc_a</Entity>

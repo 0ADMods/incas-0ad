@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<actor version="1">
+  <castshadow/>
+  <group>
+    <variant frequency="1" name="Head 1">
+      <mesh>props/new/head_longhair.dae</mesh>
+      <textures>
+        <texture file="default_norm.png" name="normTex"/>
+        <texture file="null_black.dds" name="specTex"/>
+      </textures>
+    </variant>
+  </group>
+  <group>
+    <variant frequency="1" name="mayan Face a">
+      <textures><texture file="props/head/andino_basic_a.png" name="baseTex"/></textures>
+    </variant>
+	 <variant frequency="1" name="texture b">
+      <textures><texture file="props/head/andino_basic_b.png" name="baseTex"/></textures>
+	  </variant>
+  </group>
+  <material>objectcolor.xml</material>
+</actor>
