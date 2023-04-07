@@ -1,8 +1,8 @@
 {
-	"name": "Imperio Inca",
-	"version": "0.1",
+	"name": "incas-0ad",
+	"version": "0.26.0",
 	"label": "0.A.D.Inca",
-	"url": "forum.wildfiregames.com",
-	"description": "Models for 0 ad of inca civ",
-	"dependencies": ["0ad>=0.0.24"]
+	"url": "https://github.com/0ADMods/incas-0ad",
+	"description": "Inca civilization for 0 A.D.: Empires Ascendant",
+	"dependencies": ["0ad=0.0.26"]
 }
