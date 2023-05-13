@@ -1,8 +1,8 @@
 {
-	"name": "incas-0ad",
-	"version": "0.26.0",
+	"name": "incas0ad",
+	"version": "0.27.0",
 	"label": "0.A.D.Inca",
 	"url": "https://github.com/0ADMods/incas-0ad",
 	"description": "Inca civilization for 0 A.D.: Empires Ascendant",
-	"dependencies": ["0ad=0.0.26"]
+	"dependencies": ["0ad=0.0.27"]
 }

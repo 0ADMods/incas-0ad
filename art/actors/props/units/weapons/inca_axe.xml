@@ -6,6 +6,7 @@
       <textures>
         <texture file="structural/inca_struct.png" name="baseTex"/>
         <texture file="structural/inca_struct_spec.png" name="specTex"/>
+        <texture file="structural/inca_struct_norm.png" name="normTex"/>
       </textures>
     </variant>
   </group>
@@ -17,5 +18,5 @@
       <mesh>props/weapon/inca_axe_2.dae</mesh>
     </variant>
   </group>
-  <material>basic_trans_spec.xml</material>
+  <material>player_trans_parallax_spec.xml</material>
 </actor>

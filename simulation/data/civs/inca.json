@@ -20,7 +20,7 @@
 	"StartEntities":
 	[
 		{
-			"Template": "structures/{civ}/civic_centre"
+			"Template": "structures/inca/civil_centre"
 		},
 		{
 			"Template": "units/inca/support_female_citizen",
@@ -63,7 +63,7 @@
 	"skirmish/units/default_infantry_ranged_b": "units/inca/infantry_slinger_b",
 	"skirmish/units/default_infantry_melee_b": "units/inca/infantry_maceman_b",
 	"skirmish/units/special_starting_unit":"units/inca/infantry_chaski",
-	"skirmish/structures/default_house_10": "structures/{civ}/house",
+	"skirmish/structures/default_house_10": "structures/inca/house",
 	"skirmish/units/default_cavalry": "units/inca/infantry_javelineer_b",
 	"skirmish/units/default_ship_trireme":"units/inca/ship_bireme"
 	},
