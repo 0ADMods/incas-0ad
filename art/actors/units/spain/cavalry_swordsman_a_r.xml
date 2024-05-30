@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<actor version="1">
+  <castshadow/>
+  <group>
+    <variant frequency="1" name="Base">
+      <mesh>skeletal/new/m_armor_pants_tunic_long.dae</mesh>
+      <props>
+        <prop actor="props/units/heads/new/head_hele_a.xml" attachpoint="head"/>
+        <prop actor="props/units/shields/teutonic_small_kite_shield_rider.xml" attachpoint="shield_arm"/>
+        <prop actor="props/units/weapons/broadsword.xml" attachpoint="weapon_R"/>
+      </props>
+    </variant>
+  </group>
+  <group>
+    <variant frequency="1" name="Iberian-Helmet-Basic">
+      <props>
+	      <prop actor="props/units/heads/helmet_morrion_full.xml" attachpoint="helmet"/>
+      </props>
+    </variant>
+  </group>
+  <group>
+    <variant name="slinger_01">
+      <textures>
+        <texture file="skeletal/spain/armor_1.png" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant name="slinger_02">
+      <textures>
+        <texture file="skeletal/spain/armor_1.png" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant name="slinger_03">
+      <textures>
+        <texture file="skeletal/spain/armor_1.png" name="baseTex"/>
+      </textures>
+    </variant>	
+  </group>
+  <group>
+    <variant file="biped/rider/cavalry/base_swordsman_ready_shield.xml" name="Swordsman-Ready-Shield" frequency="1"/>
+    <variant file="biped/rider/carry_meat.xml"/>
+  </group>
+  <group>
+    <variant frequency="1" name="Idle"/>
+    <variant file="biped/rider/promotion_shield.xml" />
+    <variant file="biped/rider/attack_slaughter_shield_maur.xml"/>
+    <variant file="biped/gather_meat.xml"/>
+    <variant file="biped/rider/death_shield.xml"/>
+  </group>
+  <material>player_trans.xml</material>
+</actor>
