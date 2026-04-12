@@ -20,12 +20,16 @@
       <mesh>skeletal/new/f_dress.dae</mesh>
       <textures>
         <texture file="skeletal/inca_f_1.png" name="baseTex"/>
+        <texture file="default_norm.png" name="normTex"/>
+        <texture file="null_black.dds" name="specTex"/>
       </textures>
     </variant>
         <variant frequency="1" name="Skirt-Long_b">
       <mesh>skeletal/new/f_dress.dae</mesh>
       <textures>
         <texture file="skeletal/inca_f_2.png" name="baseTex"/>
+        <texture file="default_norm.png" name="normTex"/>
+        <texture file="null_black.dds" name="specTex"/>
       </textures>
     </variant>
   </group>

@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Entity parent="units/inca/support_female_citizen">
+<Entity parent="units/inca/support_civilian">
   <Cost>
     <BuildTime>30</BuildTime>
   </Cost>
   <Identity>
     <Requirements>
-      <Techs datatype="tokens">unlock_females_house</Techs>
+      <Techs datatype="tokens">unlock_civilians_house_generic</Techs>
     </Requirements>
   </Identity>
 </Entity>

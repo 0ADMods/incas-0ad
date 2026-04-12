@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Entity parent="template_unit_infantry_melee_maceman">
+<Entity parent="merc_inf|template_unit_infantry_melee_maceman">
   <Cost>
     <Resources>
       <food op="add">-25</food>
@@ -8,15 +8,14 @@
   </Cost>
   <Identity>
     <Civ>inca</Civ>
-    <VisibleClasses datatype="tokens">Mercenary</VisibleClasses>
     <SelectionGroupName>units/inca_infantry_swordsman_merc_b</SelectionGroupName>
     <GenericName>Chimu Mercenary Maceman</GenericName>
     <SpecificName>Wisa Chimu</SpecificName>
+    <Tooltip>.</Tooltip>
     <Requirements>
       <Techs datatype="tokens">phase_town</Techs>
     </Requirements>
     <Icon>units/inca_merc_1.png</Icon>
-
   </Identity>
   <Promotion>
     <Entity>units/inca/infantry_maceman_merc_b</Entity>

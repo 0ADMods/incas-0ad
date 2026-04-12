@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Entity parent="template_unit_support_female_citizen">
+<Entity parent="template_unit_support_civilian">
    <Builder>
     <Entities datatype="tokens">
       structures/inca/military_colony
@@ -9,10 +9,10 @@
   <Identity>
     <Civ>inca</Civ>
     <SpecificName>Warmi</SpecificName>
-    <GenericName>Quíchua Woman</GenericName>
+    <GenericName>Quíchua Farmers</GenericName>
     <Icon>units/inca_female.png</Icon>
   </Identity>
   <VisualActor>
-    <Actor>units/incas/female_citizen.xml</Actor>
+    <Actor>units/incas/citizen_{phenotype}.xml</Actor>
   </VisualActor>
 </Entity>

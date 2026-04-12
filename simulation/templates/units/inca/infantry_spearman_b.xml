@@ -11,6 +11,7 @@
     <SelectionGroupName>units/inca/infantry_spearman_b</SelectionGroupName>
     <GenericName>Quíchua Spearman</GenericName>
     <SpecificName>Auca Runa paga Suchuc Chuqui</SpecificName>
+    <Tooltip>.</Tooltip>
     <Icon>units/inca_spearman.png</Icon>
   </Identity>
   <Promotion>

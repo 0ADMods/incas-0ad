@@ -17,7 +17,7 @@
     </variant>
   </group>
    <group>
-    <variant file="biped/base_swordsman_shield_fast.xml"/>
+    <variant file="biped/base_axeman_shield_fast_ready.xml"/>
   </group>
   <group>
     <variant frequency="1" name="Idle"/>

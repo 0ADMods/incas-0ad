@@ -12,6 +12,7 @@
     <SelectionGroupName>units/inca_infantry_archer_merc_b</SelectionGroupName>
     <GenericName>Ashaninka Archer</GenericName>
     <SpecificName>Wisa Ashaninka</SpecificName>
+    <Tooltip>.</Tooltip>
     <Icon>units/inca_merc_2.png</Icon>
     <Requirements>
       <Techs datatype="tokens">phase_town</Techs>

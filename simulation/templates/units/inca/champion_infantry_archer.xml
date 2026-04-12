@@ -26,6 +26,7 @@
     <SelectionGroupName>units/inca_infantry_archer_merc_b</SelectionGroupName>
     <GenericName>Machiguenga Archer/Fire</GenericName>
     <SpecificName>Wisa Machiguenga</SpecificName>
+    <Tooltip>.</Tooltip>
     <Icon>units/inca_merc_2.png</Icon>
     <Requirements>
       <Techs datatype="tokens">phase_town</Techs>

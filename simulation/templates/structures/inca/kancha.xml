@@ -6,6 +6,7 @@
   <Identity>
     <Civ>inca</Civ>
     <SpecificName>Kancha</SpecificName>
+    <Tooltip>.</Tooltip>
     <Requirements>
       <Techs datatype="tokens">phase_town</Techs>
     </Requirements>
@@ -18,8 +19,8 @@
   </Population>
     <Trainer>
     <Entities datatype="tokens">
-      -units/{civ}/support_female_citizen_house
-      units/{civ}/support_female_citizen
+      -units/{civ}/support_civilian_house
+      units/{civ}/support_civilian
       units/{civ}/infantry_slinger_b
       units/{civ}/infantry_macerman_b
     </Entities>

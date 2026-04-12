@@ -23,7 +23,7 @@
 			"Template": "structures/inca/civil_centre"
 		},
 		{
-			"Template": "units/inca/support_female_citizen",
+			"Template": "units/inca/support_civilian",
 			"Count": 4
 		},
 		{
