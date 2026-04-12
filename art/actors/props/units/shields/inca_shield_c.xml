@@ -12,16 +12,24 @@
         <texture file="props/shield/inca_shield_c_1.png" name="baseTex"/>
       </textures>
     </variant>
-	<variant frequency="1" name="2">
+  <variant frequency="1" name="2">
+    <textures>
+      <texture file="props/shield/inca_shield_c_2.png" name="baseTex"/>
+    </textures>
+  </variant>
+    <variant frequency="1" name="3">
       <textures>
-	    <texture file="props/shield/inca_shield_c_2.png" name="baseTex"/>
-      </textures>
-    </variant>
-    	<variant frequency="1" name="3">
-      <textures>
-	    <texture file="props/shield/inca_shield_c_3.png" name="baseTex"/>
+        <texture file="props/shield/inca_shield_c_3.png" name="baseTex"/>
       </textures>
     </variant>
   </group>
-  <material>player_trans.xml</material>
+  <group>
+    <variant frequency="1" name="1">
+      <textures>
+        <texture file="default_norm.png" name="normTex"/>
+        <texture file="null_black.dds" name="specTex"/>
+      </textures>
+    </variant>
+  </group>
+<material>player_trans_norm_spec.xml</material>
 </actor>

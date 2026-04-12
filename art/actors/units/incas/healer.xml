@@ -4,22 +4,23 @@
   <group>
     <variant file="biped/base_healer_male.xml">
       <mesh>skeletal/new/m_dress.dae</mesh>
-      <textures>
-        <texture file="skeletal/inca_healer.png" name="baseTex"/>
-      </textures>
       <props>
         <prop actor="props/units/heads/head_inca_basic.xml" attachpoint="head"/>
         <prop actor="props/units/staff.xml" attachpoint="weapon_R"/>
         <prop actor="props/units/helmets/inca_b.xml" attachpoint="helmet"/>
 	  </props>
+    <textures>
+        <texture file="skeletal/inca_healer.png" name="baseTex"/>
+        <texture file="default_norm.png" name="normTex"/>
+        <texture file="null_black.dds" name="specTex"/>
+      </textures>
     </variant>
   </group>
   <group>
     <variant frequency="1" name="Idle"/>
     <variant file="biped/attack_capture.xml"/>
     <variant file="biped/attack_slaughter.xml"/>
-    <variant file="biped/death_infantry.xml">
-    </variant>
+    <variant file="biped/death_infantry.xml"/>
   </group>
-  <material>player_trans.xml</material>
+  <material>player_trans_norm_spec.xml</material>
 </actor>
