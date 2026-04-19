@@ -5,11 +5,13 @@
   </Footprint>
   <Identity>
     <Civ>inca</Civ>
+    <GenericName>SpecialHouse</GenericName>
     <SpecificName>Kancha</SpecificName>
-    <Tooltip>.</Tooltip>
     <Requirements>
       <Techs datatype="tokens">phase_town</Techs>
+      <Tooltip>Unlocked in Town Phase.</Tooltip>
     </Requirements>
+    <Tooltip>Special house for the Inca civilization, used for training civilians and basic military units.</Tooltip>
   </Identity>
   <Obstruction>
     <Static width="18.0" depth="18.0"/>
@@ -19,8 +21,7 @@
   </Population>
     <Trainer>
     <Entities datatype="tokens">
-      -units/{civ}/support_civilian_house
-      units/{civ}/support_civilian
+      units/{civ}/support_civilian_house
       units/{civ}/infantry_slinger_b
       units/{civ}/infantry_macerman_b
     </Entities>

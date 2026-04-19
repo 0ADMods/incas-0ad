@@ -5,8 +5,8 @@
   </Auras>
   <Identity>
     <Civ>inca</Civ>
-    <GenericName>Incas</GenericName>
-    <History>.</History>
+    <GenericName>Incas (Tawantinsuyu)</GenericName>
+    <History>The Inca Empire was a powerful civilization that dominated a large part of the Americas in the 15th and 16th centuries.</History>
     <Icon>emblems/emblem_inca.png</Icon>
   </Identity>
   <Player>

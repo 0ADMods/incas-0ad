@@ -9,7 +9,7 @@
     <GenericName>Military Colony</GenericName>
 	  <SpecificName>Tambo</SpecificName>
     <Classes datatype="tokens">Tambo</Classes>
-    <Tooltip>.</Tooltip>
+    <Tooltip>Military colony for the Inca civilization, used for training advanced military units.</Tooltip>
   </Identity>
   <Obstruction>
     <Static width="36.0" depth="36.0"/> 
