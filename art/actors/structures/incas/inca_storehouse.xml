@@ -20,17 +20,11 @@
   </group>
   <group>
     <variant frequency="1" name="ungarrisoned"/>
-    <variant name="garrisoned">
-      <props>
-        <prop actor="props/special/common/garrison_flag_inca.xml" attachpoint="garrisoned"/>
-      </props>
-    </variant>
   </group>
   <group>
     <variant frequency="1" name="alive"/>
     <variant name="death">
       <props>
-        <prop attachpoint="garrisoned"/>
         <prop actor="particle/destruction_smoke_small.xml" attachpoint="root"/>
         <prop actor="particle/destruction_dust_small.xml" attachpoint="root"/>
         <prop actor="particle/destruction_dust_small_gray.xml" attachpoint="root"/>

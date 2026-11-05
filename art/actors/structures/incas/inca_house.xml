@@ -15,7 +15,7 @@
       </textures>
     </variant>
         <variant frequency="1" name="house2">
-      <mesh>structural/inca_house_2.dae.dae</mesh>
+      <mesh>structural/inca_house_2.dae</mesh>
       <props>
         <prop actor="props/structures/decals/dirt_5x3.xml" attachpoint="root"/>
       </props>
@@ -27,7 +27,7 @@
       </textures>
     </variant>
     <variant frequency="1" name="house3">
-      <mesh>structural/inca_house_3.dae.dae</mesh>
+      <mesh>structural/inca_house_3.dae</mesh>
       <props>
         <prop actor="props/structures/decals/dirt_5x3.xml" attachpoint="root"/>
       </props>
@@ -51,7 +51,6 @@
     <variant frequency="1" name="alive"/>
     <variant name="death">
       <props>
-        <prop attachpoint="garrisoned"/>
         <prop actor="particle/destruction_smoke_small.xml" attachpoint="root"/>
         <prop actor="particle/destruction_dust_small.xml" attachpoint="root"/>
         <prop actor="particle/destruction_dust_small_gray.xml" attachpoint="root"/>
