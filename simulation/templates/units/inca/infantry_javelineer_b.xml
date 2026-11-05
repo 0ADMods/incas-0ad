@@ -14,6 +14,7 @@
     <Tooltip>.</Tooltip>
     <Requirements>
       <Techs datatype="tokens">phase_city</Techs>
+      <Tooltip>Unlocked in City Phase.</Tooltip>
     </Requirements>
     <Icon>units/inca_javelinist.png</Icon>
   </Identity>
