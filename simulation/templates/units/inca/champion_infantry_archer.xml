@@ -30,6 +30,7 @@
     <Icon>units/inca_merc_2.png</Icon>
     <Requirements>
       <Techs datatype="tokens">phase_town</Techs>
+      <Tooltip>Unlocked in Town Phase.</Tooltip>
     </Requirements>
   </Identity>
   <VisualActor>
